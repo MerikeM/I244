@@ -13,6 +13,18 @@
 	<br>
 	<img src="pics/pilt.jpg">
 
+	<br>
+
+	<p id="aeg"></p>
+	
+	<script>
+	var current = new Date();
+	var end = new Date("February 11, 2017 16:30:00");
+	document.getElementById('aeg').innerHTML = (end-current)/1000;
+	</script>
+
+
+
 
 	</body>
 </html>
