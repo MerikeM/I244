@@ -1,0 +1,12 @@
+body {
+	background-color: yellow;
+}
+
+p {
+	color:red;
+	font-size: 25px;
+}
+
+img {
+	border-radius: 8px;
+}
