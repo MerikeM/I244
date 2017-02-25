@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="utf-8"/>
+<title>Esimene vorm</title>
+</head>
+<body>
+<form action="vorm1.html" method="get">
+Nimi: <input type="text" name="nimi" placeholder="Eesnimi Perenimi"><br>
+Vanus: <input type="number" name="vanus"><br>
+Sugu: <br>
+<input type="radio" name="sugu" value="mees" label="Mees">
+<label for="mees">Mees</label><br>
+<input type="radio" name="sugu" value="naine">
+<label for="naine">Naine</label><br>
+Sünniaeg: <input type="date" name="sünniaeg"><br>
+Koduloomad:
+<table>
+<tr>
+<td><input type="checkbox" name="loomad" value="koer"></td>
+<td>Koer</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="loomad" value="kass"></td>
+<td>Kass</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="loomad" value="kalad"></td>
+<td>Kalad</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="loomad" value="muu"></td>
+<td>Muu</td>
+</tr>
+</table>
+Lemmikvärv: <input type="color" name="lemmikvärv"><br>
+
+<input type="submit" value="Saada">
+
+</form>
+</body>
+</html>
