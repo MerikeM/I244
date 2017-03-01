@@ -1,0 +1,39 @@
+img {
+    width: 300px;
+    border: solid 10px blue;
+    cursor: no-drop;
+}
+
+img:hover {
+    width: 800px;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    color: firebrick;
+    font-size: 20px;
+}
+
+a:hover {
+    font-size: 40px;
+    color:green;
+}
+
+p {
+    font-family: arial, sans-serif;
+    text-align: justify;
+}
+
+li {
+    list-style: square;
+}
+
+
