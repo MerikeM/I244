@@ -1,0 +1,71 @@
+.test {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    left: 300px;
+    top: 100px;
+}
+
+.test .test {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.test .test:nth-child(odd){
+    background-color: white;
+    border-color: beige;
+}
+
+.test .test:nth-child(even){
+    background-color: red;
+    border-color: firebrick;
+}
+
+.test .test:nth-child(1) {
+    height: 300px;
+    width: 300px;
+    left: 0;
+    top: 0;
+}
+
+.test .test:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    left: 25px;
+    top: 25px;
+}
+
+.test .test:nth-child(3) {
+    height: 200px;
+    width: 200px;
+    left: 50px;
+    top: 50px;
+}
+
+.test .test:nth-child(4) {
+    height: 150px;
+    width: 150px;
+    left: 75px;
+    top: 75px;
+}
+
+.test .test:nth-child(5) {
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 100px;
+}
+
+.test .test:nth-child(6) {
+    height: 50px;
+    width: 50px;
+    left: 125px;
+    top: 125px;
+}
+
+img {
+    width: 100%;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
