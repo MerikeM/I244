@@ -1,0 +1,21 @@
+<?php 
+    foreach($puurid as $number => $loomad):
+?>
+<div>
+<h1>Puur nr: <?php echo ($number); ?></h1>
+<?php
+    foreach($loomad as $loom):
+?>
+<?php if ($_SESSION['roll']==='admin'){
+    echo ("<a href=?page=muuda&id=".$loom["id"].">");
+} ?>
+<?php echo ("<img src=\"".$loom["liik"]."\" alt=\"".$loom["liik"]."\">"); ?>
+<?php if ($_SESSION['roll']==='admin'){
+    echo ("</a>");
+}
+?>
+<?php endforeach; ?>
+
+</div>
+<?php endforeach; ?>
+
